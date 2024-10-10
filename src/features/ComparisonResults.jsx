@@ -16,7 +16,7 @@ const ComparisonResults = () => {
     dispatch(fetchCountries(formattedCode1, formattedCode2));
   }, [dispatch, code1, code2]);
 
-  const HEADER_TEXT = "Comparation Country";
+  const HEADER_TEXT = "Comparison Country";
   const QUOTE_TEXT = " ";
 
   if (error) {
@@ -37,7 +37,7 @@ const ComparisonResults = () => {
 
   const renderCountryInfo = (country) => (
     <div className="country-info">
-      <img src={country.flags.svg} alt={`Bendera ${country.name.common}`} className="flag" />
+      <img src={country.flags.svg} alt={`Flag ${country.name.common}`} className="flag" />
       <h2>{country.name.common}</h2>
       <ul>
         <li><strong>Width:</strong> {country.area.toLocaleString()} km²</li>

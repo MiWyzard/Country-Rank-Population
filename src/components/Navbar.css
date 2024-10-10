@@ -21,7 +21,7 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     padding: 1rem 1.75rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:not(.active):hover {
@@ -48,7 +48,25 @@ nav .menu span {
     border-radius: 0.2rem;
 }
 
-
+.dark-mode-toggle {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: inherit;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+  
 @media (max-width: 480px) {
     nav .menu {
         display: flex;

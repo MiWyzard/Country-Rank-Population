@@ -1,5 +1,37 @@
 .App {
+  min-height: 100vh;
+  background-color: inherit;
+}
+
+.dark {
+  background-color: #767991;
+  color: #000000;
+}
+
+html, body {
   background-color: #fefefe;
-  height: 100vh;
-  width: 100%;
+  color: #30404f;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container, .news-container, .comparison-container {
+  background-color: inherit;
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
