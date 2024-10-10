@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project Title: Country Rank Population
 Project Description:
 This project, built with Vite, is a web application that ranks countries by population, allowing users to compare data, view news, and toggle between light and dark modes. The app uses React for UI rendering and Axios for fetching data from APIs such as restcountries.com and New York Times API.
@@ -80,4 +81,6 @@ Navigate to /news to view the latest news articles and search/filter them.
 Toggle between light and dark mode using the icon in the top right of the navbar.
 License:
 This project is licensed under the MIT License.
+=======
+>>>>>>> 009005b3a8cdd169af2607e0f5724f7ccd194323
 
