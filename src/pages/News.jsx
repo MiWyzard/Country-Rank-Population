@@ -47,6 +47,8 @@ const News = () => {
         />
         <select onChange={(e) => setCategory(e.target.value)} value={category}>
           <option value="peace">Peace</option>
+          <option value="economy">Economy</option>
+          <option value="education">Education</option>
           <option value="politics">Politics</option>
           <option value="technology">Technology</option>
           <option value="health">Health</option>
